@@ -19,4 +19,4 @@ This app is using the [AudioKit](https://audiokit.io/) framework for midi
 
 ## TODO
 * cleanup code
-* add references to hardware & server setup/code
+* add image references to hardware setup

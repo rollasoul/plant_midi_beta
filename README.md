@@ -3,7 +3,7 @@ beta repo for a plant chat app using iOS device, cloud server and hardware
   
 [![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/877513457.jpg)](https://vimeo.com/406891053)
 
-## Installation
+## INSTALLATION
 
 ### device side
 * **iOS DEVICE: handles communication between device and remote server, processes midi to audio on device, runs sentiment analysis on user messages locally**

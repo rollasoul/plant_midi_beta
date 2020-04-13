@@ -17,6 +17,7 @@ beta repo for a plant chat app using iOS device, cloud server and hardware
 ### plant side (Feather Huzzah, Raspberry Pi, Govee BLE lightbulb) 
 * **HARDWARE: handles physical computation side of the project**
     * get the hardware according to [this tutorial](https://github.com/electricityforprogress/BiodataSonificationBreadboardKit/blob/master/BiodataBreadboardArduinoKit_v01.pdf), assemble it 
+    * get a [Govee BLE lightbulb](https://www.amazon.com/dp/B07CL2RMR7/ref=cm_sw_em_r_mt_dp_U_cFlLEb48KYB53)
 * **FEATHER HUZZAH ESP8266: handles sensing of plant and communication between remote server, feather huzzah and sensor on plant**
     * download the [esp8266 plant socket repo](https://github.com/rollasoul/plant_midi_esp8266_beta)
     * open it in ARDUINO IDE, modify wifi SSID/PW and remote server address in the settings.h file

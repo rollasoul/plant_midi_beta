@@ -9,7 +9,7 @@ This app is using the [AudioKit](https://audiokit.io/) framework for midi
 * [install] AudioKit (https://audiokit.io/downloads/) via CocoaPods
 
 ### remote server side
-* deploy a remote server and run the node.js server-script (handles all the communication between plant and mobile device)
+* deploy a remote server and run [this node.js server-script](https://gist.github.com/rollasoul/00cd208704a25aabdb647e6643d331db) (handles all the communication between plant and mobile device)
 
 ### plant side (Feather Huzzah, Raspberry Pi, Govee BLE lightbulb) 
 * get the hardware according to [this tutorial](https://github.com/electricityforprogress/BiodataSonificationBreadboardKit/blob/master/BiodataBreadboardArduinoKit_v01.pdf), assemble it 

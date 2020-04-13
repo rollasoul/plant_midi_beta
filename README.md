@@ -1,9 +1,7 @@
 # plant_midi_beta
 beta iOS client for plant chat app
-
-<a href="https://www.vimeo.com/video/406891053
-" target="_blank"><img src=""https://i.vimeocdn.com/video/877513457.jpg"); opacity: 1;" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+  
+[![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/877513457.jpg)](https://www.vimeo.com/video/406891053)
 
 ## Installation
 

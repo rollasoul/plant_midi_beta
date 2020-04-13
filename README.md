@@ -1,5 +1,5 @@
 # plant_midi_beta
-beta iOS client for plant chat app
+beta repo for a plant chat app using iOS device, cloud server and hardware 
   
 [![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/877513457.jpg)](https://vimeo.com/406891053)
 
@@ -15,8 +15,8 @@ This app is using the [AudioKit](https://audiokit.io/) framework for midi
 
 ### plant side (Feather Huzzah, Raspberry Pi, Govee BLE lightbulb) 
 * get the hardware according to [this tutorial](https://github.com/electricityforprogress/BiodataSonificationBreadboardKit/blob/master/BiodataBreadboardArduinoKit_v01.pdf), assemble it 
-* FEATHER HUZZAH ESP8266: download the [esp8266 plant socket repo](https://github.com/rollasoul/plant_midi_esp8266_beta), open it in ARDUINO IDE and flash your feather with it (handles sensing of plant and websockets)
-* RASPBERRY PI: git clone the [govee-lights BLE repo](https://github.com/Freemanium/govee_btled), add the [pi-client python script](https://gist.github.com/rollasoul/54bfd4a7ac1e64432e1da83ece3d16b1) to the folder (modify lamp mac-address and remote server-ip before running)
+* FEATHER HUZZAH ESP8266: download the [esp8266 plant socket repo](https://github.com/rollasoul/plant_midi_esp8266_beta), open it in ARDUINO IDE and flash your feather with it (handles sensing of plant and communication between remote server, feather huzzah and sensor on plant)
+* RASPBERRY PI: git clone the [govee-lights BLE repo](https://github.com/Freemanium/govee_btled), add the [pi-client python script](https://gist.github.com/rollasoul/54bfd4a7ac1e64432e1da83ece3d16b1) to the folder, in the script modify lamp mac-address and remote server-ip to your settings before running (handles communication between remote server, pi and BLE-lights)
 
 
 ## TODO

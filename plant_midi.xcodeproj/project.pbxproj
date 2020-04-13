@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F203AF7D240DF1BF003C7896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203AF7C240DF1BF003C7896 /* AppDelegate.swift */; };
+		F203AF7F240DF1BF003C7896 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203AF7E240DF1BF003C7896 /* SceneDelegate.swift */; };
+		F203AF82240DF1BF003C7896 /* plant_midi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F203AF80240DF1BF003C7896 /* plant_midi.xcdatamodeld */; };
+		F203AF84240DF1BF003C7896 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F203AF83240DF1BF003C7896 /* ContentView.swift */; };
+		F203AF86240DF1C3003C7896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F203AF85240DF1C3003C7896 /* Assets.xcassets */; };
+		F203AF89240DF1C3003C7896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F203AF88240DF1C3003C7896 /* Preview Assets.xcassets */; };
+		F203AF8C240DF1C3003C7896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F203AF8A240DF1C3003C7896 /* LaunchScreen.storyboard */; };
+		F2829775240F4CF8003E42F0 /* MidiAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2829774240F4CF8003E42F0 /* MidiAudio.swift */; };
+		F2829777240F4DBB003E42F0 /* Synth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2829776240F4DBB003E42F0 /* Synth.swift */; };
+		F2C6C8982413190B002DC714 /* MidiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6C8972413190B002DC714 /* MidiData.swift */; };
+		F2FF3ECD243259CD00101B67 /* rainforest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F2FF3ECC243259CD00101B67 /* rainforest.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F203AF79240DF1BF003C7896 /* plant_midi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plant_midi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F203AF7C240DF1BF003C7896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F203AF7E240DF1BF003C7896 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F203AF81240DF1BF003C7896 /* plant_midi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plant_midi.xcdatamodel; sourceTree = "<group>"; };
+		F203AF83240DF1BF003C7896 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F203AF85240DF1C3003C7896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F203AF88240DF1C3003C7896 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F203AF8B240DF1C3003C7896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F203AF8D240DF1C3003C7896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25D3A7F243E15430039F02F /* plant_midi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = plant_midi.entitlements; sourceTree = "<group>"; };
+		F2829774240F4CF8003E42F0 /* MidiAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiAudio.swift; sourceTree = "<group>"; };
+		F2829776240F4DBB003E42F0 /* Synth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synth.swift; sourceTree = "<group>"; };
+		F2C6C8972413190B002DC714 /* MidiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiData.swift; sourceTree = "<group>"; };
+		F2FF3ECC243259CD00101B67 /* rainforest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainforest.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F203AF76240DF1BF003C7896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F203AF70240DF1BF003C7896 = {
+			isa = PBXGroup;
+			children = (
+				F203AF7B240DF1BF003C7896 /* plant_midi */,
+				F203AF7A240DF1BF003C7896 /* Products */,
+				F282977A240F5BED003E42F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F203AF7A240DF1BF003C7896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F203AF79240DF1BF003C7896 /* plant_midi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F203AF7B240DF1BF003C7896 /* plant_midi */ = {
+			isa = PBXGroup;
+			children = (
+				F25D3A7F243E15430039F02F /* plant_midi.entitlements */,
+				F203AF7C240DF1BF003C7896 /* AppDelegate.swift */,
+				F203AF7E240DF1BF003C7896 /* SceneDelegate.swift */,
+				F203AF83240DF1BF003C7896 /* ContentView.swift */,
+				F2829774240F4CF8003E42F0 /* MidiAudio.swift */,
+				F2C6C8972413190B002DC714 /* MidiData.swift */,
+				F2829776240F4DBB003E42F0 /* Synth.swift */,
+				F203AF85240DF1C3003C7896 /* Assets.xcassets */,
+				F203AF8A240DF1C3003C7896 /* LaunchScreen.storyboard */,
+				F203AF8D240DF1C3003C7896 /* Info.plist */,
+				F203AF80240DF1BF003C7896 /* plant_midi.xcdatamodeld */,
+				F203AF87240DF1C3003C7896 /* Preview Content */,
+				F2FF3ECB2432598C00101B67 /* Sounds */,
+			);
+			path = plant_midi;
+			sourceTree = "<group>";
+		};
+		F203AF87240DF1C3003C7896 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F203AF88240DF1C3003C7896 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F282977A240F5BED003E42F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2FF3ECB2432598C00101B67 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF3ECC243259CD00101B67 /* rainforest.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F203AF78240DF1BF003C7896 /* plant_midi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F203AF90240DF1C3003C7896 /* Build configuration list for PBXNativeTarget "plant_midi" */;
+			buildPhases = (
+				239E6DB383CE9DAD4AD25822 /* [CP] Check Pods Manifest.lock */,
+				9D46C920EC1925E2CB361C79 /* [CP] Prepare Artifacts */,
+				F203AF75240DF1BF003C7896 /* Sources */,
+				F203AF76240DF1BF003C7896 /* Frameworks */,
+				F203AF77240DF1BF003C7896 /* Resources */,
+				0D80794AE61CE33ADAB61CBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plant_midi;
+			productName = plant_midi;
+			productReference = F203AF79240DF1BF003C7896 /* plant_midi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F203AF71240DF1BF003C7896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Roland Arnoldt";
+				TargetAttributes = {
+					F203AF78240DF1BF003C7896 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F203AF74240DF1BF003C7896 /* Build configuration list for PBXProject "plant_midi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F203AF70240DF1BF003C7896;
+			productRefGroup = F203AF7A240DF1BF003C7896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F203AF78240DF1BF003C7896 /* plant_midi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F203AF77240DF1BF003C7896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F203AF8C240DF1C3003C7896 /* LaunchScreen.storyboard in Resources */,
+				F2FF3ECD243259CD00101B67 /* rainforest.mp3 in Resources */,
+				F203AF89240DF1C3003C7896 /* Preview Assets.xcassets in Resources */,
+				F203AF86240DF1C3003C7896 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D80794AE61CE33ADAB61CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plant_midi/Pods-plant_midi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plant_midi/Pods-plant_midi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plant_midi/Pods-plant_midi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		239E6DB383CE9DAD4AD25822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plant_midi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D46C920EC1925E2CB361C79 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plant_midi/Pods-plant_midi-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plant_midi/Pods-plant_midi-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plant_midi/Pods-plant_midi-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F203AF75240DF1BF003C7896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F203AF82240DF1BF003C7896 /* plant_midi.xcdatamodeld in Sources */,
+				F2C6C8982413190B002DC714 /* MidiData.swift in Sources */,
+				F2829777240F4DBB003E42F0 /* Synth.swift in Sources */,
+				F203AF7D240DF1BF003C7896 /* AppDelegate.swift in Sources */,
+				F203AF84240DF1BF003C7896 /* ContentView.swift in Sources */,
+				F203AF7F240DF1BF003C7896 /* SceneDelegate.swift in Sources */,
+				F2829775240F4CF8003E42F0 /* MidiAudio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F203AF8A240DF1C3003C7896 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F203AF8B240DF1C3003C7896 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F203AF8E240DF1C3003C7896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F203AF8F240DF1C3003C7896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F203AF91240DF1C3003C7896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = plant_midi/plant_midi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"plant_midi/Preview Content\"";
+				DEVELOPMENT_TEAM = F3A6ZC5R58;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/plant_midi",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = plant_midi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eden.plant-midi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F203AF92240DF1C3003C7896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_ENTITLEMENTS = plant_midi/plant_midi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"plant_midi/Preview Content\"";
+				DEVELOPMENT_TEAM = F3A6ZC5R58;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/plant_midi",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = plant_midi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eden.plant-midi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F203AF74240DF1BF003C7896 /* Build configuration list for PBXProject "plant_midi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F203AF8E240DF1C3003C7896 /* Debug */,
+				F203AF8F240DF1C3003C7896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F203AF90240DF1C3003C7896 /* Build configuration list for PBXNativeTarget "plant_midi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F203AF91240DF1C3003C7896 /* Debug */,
+				F203AF92240DF1C3003C7896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F203AF80240DF1BF003C7896 /* plant_midi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F203AF81240DF1BF003C7896 /* plant_midi.xcdatamodel */,
+			);
+			currentVersion = F203AF81240DF1BF003C7896 /* plant_midi.xcdatamodel */;
+			path = plant_midi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F203AF71240DF1BF003C7896 /* Project object */;
+}

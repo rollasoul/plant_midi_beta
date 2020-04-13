@@ -7,7 +7,7 @@ beta repo for a plant chat app using iOS device, cloud server and hardware
 
 ### device side
 * **iOS DEVICE: handles communication between device and remote server, processes midi to audio on device, runs sentiment analysis on user messages locally**
-    * the app is using the [AudioKit](https://audiokit.io/) framework for midi, [install] AudioKit (https://audiokit.io/downloads/) via CocoaPods
+    * the app is using the [AudioKit](https://audiokit.io/) framework for midi, [install AudioKit](https://audiokit.io/downloads/) via CocoaPods
     * if running in Xcode 11.4 or later get the [latest beta](https://github.com/AudioKit/Specs) (avoids [compiler issues](https://github.com/AudioKit/AudioKit/issues/1987))
 
 ### remote server side
